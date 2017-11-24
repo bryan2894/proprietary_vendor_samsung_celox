@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so
 
 PRODUCT_COPY_FILES += \
+	vendor/samsung/celox/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
+	vendor/samsung/celox/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
 	vendor/samsung/celox/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
