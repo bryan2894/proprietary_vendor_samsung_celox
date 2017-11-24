@@ -14,9 +14,9 @@
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
-	vendor/samsung/celox/proprietary/bin/netmgrd:system/bin/netmgrd.exec \
-	vendor/samsung/celox/proprietary/bin/qcks:system/bin/qcks.exec \
-	vendor/samsung/celox/proprietary/bin/qmiproxy:system/bin/qmiproxy.exec \
+	vendor/samsung/celox/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/samsung/celox/proprietary/bin/qcks:system/bin/qcks \
+	vendor/samsung/celox/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/samsung/celox/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
 	vendor/samsung/celox/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/celox/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -44,10 +44,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/celox/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/celox/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/samsung/celox/proprietary/bin/ks:system/bin/ks.exec \
-	vendor/samsung/celox/proprietary/bin/qmuxd:system/bin/qmuxd.exec \
+	vendor/samsung/celox/proprietary/bin/ks:system/bin/ks \
+	vendor/samsung/celox/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/celox/proprietary/bin/rild:system/bin/rild \
-	vendor/samsung/celox/proprietary/bin/rmt_storage:system/bin/rmt_storage.exec \
+	vendor/samsung/celox/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/celox/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/celox/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/samsung/celox/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -98,4 +98,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libdsm.so:system/lib/libdsm.so
 
 PRODUCT_COPY_FILES += \
-	vendor/samsung/celox/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/celox/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/celox/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/celox/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/celox/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
