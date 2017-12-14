@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/samsung/celox/proprietary/bin/ks:system/bin/ks \
 	vendor/samsung/celox/proprietary/bin/qmuxd:system/bin/qmuxd.exec \
-	vendor/samsung/celox/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/celox/proprietary/bin/rmt_storage:system/bin/rmt_storage.exec \
 	vendor/samsung/celox/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/celox/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -53,7 +52,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/samsung/celox/proprietary/lib/libqueue.so:system/lib/libqueue.so \
 	vendor/samsung/celox/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/samsung/celox/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/celox/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/celox/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/celox/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
